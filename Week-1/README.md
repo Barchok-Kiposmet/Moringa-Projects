@@ -1,1 +1,2 @@
-# This is my Journey into being a web developer
+# Patrick Barchok's Portfolio Project
+Project done by Patrick Barchok K
