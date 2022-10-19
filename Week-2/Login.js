@@ -19,7 +19,8 @@ if (passwordElement == ' ') {
     if (email != db.email){
         alert('Provide a valid email')
 
-    } else if(password != db.password){
+    } 
+    else if(password != db.password){
         alert('Password incorrect')
     }
     else {'Successfully logged in'}
