@@ -15,10 +15,8 @@ const submit = () => {
     const email = emailElement.value;
     const number = numberElement.value;
     const submit = [fname, lname, email, number];
-
-    
-
-       
+   
+      
     //do some checks on the inputs to ensure user enters all required data
 
     if (fname == '') {
@@ -35,7 +33,7 @@ const submit = () => {
     }
     
     else {
-        alert('Congratilations')
+        alert('Congratulations, you are logged in. Check your email for password')
     }
      
            

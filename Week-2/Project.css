@@ -1,0 +1,23 @@
+head{
+    font-style: italic;
+    color: blue;
+}
+
+body{
+    background-color: rgb(219, 128, 16);
+    text-align: center;
+    border-style: solid;
+    border-width: solid;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 5%;
+    margin-left: 100px;
+}
+
+button{
+    display: inline-block;
+    color: black;
+    align-self: center; 
+    padding: 10px;   
+}
