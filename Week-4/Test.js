@@ -4,4 +4,5 @@ const submit () =>{
 languages.forEach(function(language){
 alert ('I love' + language + '!')
 })
+
 }
