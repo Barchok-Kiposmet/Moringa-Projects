@@ -8,14 +8,17 @@
 </head>
     <body>
         <h2>JS for loops</h2>
-        <p id="demo">demo</p>
+        <p>Add an array plus 1</p>
+        <p id="demo"></p>
     
         <script>
-            let text = ""
-            for (let i = 0; i <= 10; i++) {
-            text += "The number is " + i + "<br>";
+           var myArray = [10, 20, 40, 60];
+            var newArray = numbers.map(myFunction);
+
+            function myFunction(num){
+	        return num ++1;
             }
-            document.getElementById("demo").innerHTML = text;
+            document.getElementById("demo").innerHTML = myArray;
         </script>
 
     </body>
