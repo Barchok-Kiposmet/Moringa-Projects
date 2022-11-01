@@ -59,3 +59,9 @@ for (key of person){
     // functions that does not accept values
     
         var myFunctionFour = numOne => numberOne + numberTwo;
+
+    // This is how to invoke a function that is not assigned anywhere else
+
+        jQuery (h1).click ((){
+            alert('THis is the header') // this is the function called assynchronically
+        })
