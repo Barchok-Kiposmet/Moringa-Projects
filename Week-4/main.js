@@ -16,7 +16,7 @@ $(document).ready(function(){
     });
 
     $("#btn-four").click( function(){
-        alert("Ah, there you are");
+        alert("Ah, there you are!");
     });
 
     $("#btn-five").click( function(){
