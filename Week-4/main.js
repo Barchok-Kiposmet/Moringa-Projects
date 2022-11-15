@@ -1,7 +1,7 @@
 
 // instead of repeating jQuery we substitute this to the $ sign for all
 
-$(document).ready(function(){
+$(document).ready(() => {
 
     $(window).resize(function(){
         alert("This window has been resized");
