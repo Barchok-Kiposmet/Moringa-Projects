@@ -23,10 +23,9 @@ $(document).ready(function(){
         $(this).text("Updated");
     });
 
-    $("#btn-six").click( function(){
-        $(this).text("Updated");
+    $("#btn-six").click(() => {
+        console.log('This has been changed with new code')
     });
-
 });
 
 
