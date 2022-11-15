@@ -12,7 +12,7 @@ $(document).ready(() => {
     });
 
     $("#btn-two").click( function(){
-        $(this).text("I wanna be solid!!!");
+        $(this).text("This is the new Jquery text");
     });
 
     $("#btn-four").click( function(){
@@ -30,7 +30,8 @@ $(document).ready(() => {
     $('#btn-six').click(() => {
         alert ('DO NOT DO THAT!!');
     });
-});
+
+    
 
 
 
