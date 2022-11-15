@@ -26,6 +26,10 @@ $(document).ready(function(){
     $("#btn-six").click(() => {
         console.log('This has been changed with new code')
     });
+
+    $('#btn-six').click(() => {
+        alert ('DO NOT DO THAT!!');
+    });
 });
 
 
