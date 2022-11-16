@@ -12,27 +12,35 @@
     <p id="second">This is my second sentence</p>
     <p class="third">This is my third sentence</p>
 
+    <div id="Target">click here</div> <br>
+
     <button id="something">button</button>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script>
         $(document).ready(() => {
             
-            $('button#something').click(() => {
+            $('#something').click(() => {
                 alert('button clicked!!');
             });
 
-            $('p#second').click(() =>{
+            $('#second').click(() =>{
                 alert('This is a hover!');
             
             });
 
-            $('p.third').click(() =>{
+            $('.third').click(() =>{
                 $('p.third').css('color', 'blue');
             
             });
 
-            
+            $('#Target').mouseenter(() => {
+                $('#Target').text('Mouse has entered here.');
+            });
+
+            $('#Target').mouseleave(() => {
+                $('#Target').text('Mouse has left here');
+            });
             
            
         });
