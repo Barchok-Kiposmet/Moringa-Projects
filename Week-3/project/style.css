@@ -1,0 +1,11 @@
+#logo{
+    background-image: url("h_img.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    background-origin: content-box, padding-box;
+    margin-top: 0px;
+    
+   
+}
