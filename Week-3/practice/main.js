@@ -1,6 +1,8 @@
 
 // instead of repeating jQuery we substitute this to the $ sign for all
 
+
+
 $(document).ready(() => {
 
     $(window).resize(function(){
