@@ -1,11 +1,17 @@
 #logo{
     background-image: url("h_img.jpg");
+    width: 100%;
+    height: 200%;
+    margin-top: auto;
     background-size: auto;
-    background-repeat: no-repeat;
+    background-repeat: initial;
     text-align: center;
-    background-position: center;
-    background-origin: content-box, padding-box;
-    margin-top: 0px;
-    
-   
+    /* background-position: center;
+    background-origin: content-box, padding-box; */
+         
+}
+
+#about-us{
+    margin-top: 10px;
+    text-align: center;
 }
