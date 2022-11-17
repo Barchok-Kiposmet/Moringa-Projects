@@ -1,13 +1,12 @@
+body{
+    background-color: white;
+}
+
 #logo{
     background-image: url("h_img.jpg");
-    width: 100%;
-    height: 200%;
-    margin-top: auto;
-    background-size: auto;
-    background-repeat: initial;
+    background-size: cover;
     text-align: center;
-    /* background-position: center;
-    background-origin: content-box, padding-box; */
+    columns: white;
          
 }
 
@@ -15,3 +14,14 @@
     margin-top: 10px;
     text-align: center;
 }
+
+#services-banner{
+    background-image: url(s_image.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: small;
+    
+
+}
+
