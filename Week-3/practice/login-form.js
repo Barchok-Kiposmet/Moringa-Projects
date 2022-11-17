@@ -1,11 +1,14 @@
 
-        $(document).ready(()=>{
+        $(document).ready(() => {
            
             $('button#loginbutton').click(()=>{
+
                 const emailValue = $('input#emailbox').val();
                 const passwordValue = $('input#passwordbox').val();
 
-                let message;
+                let message; // this will be replaced later at text here and is dynamic
+
+                // performing logical checks on inputs
 
                 if (emailValue == ' ' || passwordValue == ' ') message = 'Please provide a valid email and/or password';
                    
@@ -18,15 +21,14 @@
                                 else message = 'Logged in Successfully as'+ ' ' + emailValue; 
                     }
                         
-                            
-
+                    // return the message at results here
 
                 $('p#loginresult').text(message);
-
+                            
 
             });
 
         
-        // (event).preventDefault();    
+        // event.preventDefault();    
 
         });
