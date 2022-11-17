@@ -15,10 +15,11 @@
                         
                             else if (!String(emailValue).includes('@')) message = 'Please provide a valid email';
                             
-                                else message = 'Logged in Successfully at' 
+                                else message = 'Logged in Successfully as' + emailValue; 
 
 
                 $('p#loginresult').text(message);
+
 
             });
 
