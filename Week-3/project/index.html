@@ -234,9 +234,9 @@
 
             $('#submit').click(()=>{
 
-            const nameValue = $('#name').val();
-            const emailValue = $('#email').val();
-            const textValue = $('#textarea').val();
+            let nameValue = $('#name').val();
+            let emailValue = $('#email').val();
+            let textValue = $('#textarea').val();
 
                 if( nameValue == '' || emailValue == '' || textValue == ''){
                 alert('Please enter name and/or email and a short message');
@@ -245,9 +245,7 @@
             }
             });
 
-            
-
-            
+                       
         
             
         });
