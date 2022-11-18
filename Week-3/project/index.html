@@ -54,18 +54,18 @@
         <div class="row">
             <div class="col-md-4" id="design">
                 <div class="hide-image">
-                    <img src="design_icon.png" alt="design icon">
-                    <p>DESIGN</p>
-                    <p class="hide" id="design-showing">
+                    <img src="design_icon.png" class="imageOne">
+                    <p class="design-showing">DESIGN</p>
+                    <p class="design-showing">
                         Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
                         Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
                 </div>
             </div>
             <div class="col-md-4" id="development">
                 <div class="hide-development-image">
-                    <img src="dev_icon.png" alt="Development image">
-                    <p>DEVELOPMENT</p>
-                    <P>
+                    <img src="dev_icon.png" class="imageTwo">
+                    <p class="development-showing">DEVELOPMENT</p>
+                    <P class="development-showing">
                     All engineers are fluent in the latest enterprise, mobile and web development technologies.
                     They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
                     </P>
@@ -73,9 +73,9 @@
             </div>
             <div class="col-md-4" id="product-management">
                 <div class="hide-product-image">
-                    <img src="product_icon.png" alt="Product image">
-                    <p>PRODUCT MANAGEMENT</p>
-                    <P class="hide">
+                    <img src="product_icon.png" class="imageThree">
+                    <p class="product-showing">PRODUCT MANAGEMENT</p>
+                    <P class="product-showing">
                     Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
                     This iterative process allows for changes as business requirements evolve
                     </P>
@@ -206,7 +206,18 @@
     <script>
         $(document).ready(()=>{
 
-            $('#submit').click((event)=>{
+            $('.imageOne').click(() =>{
+                $('.design-showing').toggle();
+            });
+            $('.imageTwo').click(() =>{
+                $('.development-showing').toggle();
+            });
+            $('.imageThree').click(() =>{
+                $('.product-showing').toggle();
+            });
+
+            
+            $('#submit').click(()=>{
 
             const nameValue = $('#name').val();
             const emailValue = $('#email').val();
@@ -218,8 +229,12 @@
                 alert('Congratulations, we have received your details');
             }
             });
+
+            
+
+            
         
-            event.preventDefault();
+            
         });
     </script>
 </body>
