@@ -92,7 +92,10 @@
         <div class="row">
 
             <div class="col-sm-12 col-md-6 col-lg-3" id="work1">
-                <img src="work4.jpg">
+                <img src="work4.jpg" id="imageHover">
+                <div class="hover">
+                    <p id="hover_portfolio">Wine Kenya</p>
+                </div>
             </div>  
 
             <div class="col-sm-12 col-md-6 col-lg-3" id="work2">
@@ -209,14 +212,26 @@
             $('.imageOne').click(() =>{
                 $('.design-showing').toggle();
             });
+
             $('.imageTwo').click(() =>{
                 $('.development-showing').toggle();
             });
             $('.imageThree').click(() =>{
                 $('.product-showing').toggle();
             });
+            
 
             
+            //Insert white box upo hover
+
+            $("#imageHover").hover(function(){
+                $(".Hover").css({opacity:1});
+            },
+            function(){
+                $(".Hover").css({opacity:0});
+            })          
+
+
             $('#submit').click(()=>{
 
             const nameValue = $('#name').val();

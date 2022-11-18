@@ -38,11 +38,6 @@ body{
       
 }
 
-.input [type=text]{
-    background: transparent;
-    
-}
-
 #socialtools{
     margin-left: 20%;
 }
@@ -52,7 +47,10 @@ p{
 
 textarea, input{
     background-color: transparent;
-    opacity: 0.4;
+    opacity: 0.3;
+    border-radius: 10px; 
+    border: solid;
+  
 }
 
 .whatwedo {
@@ -71,4 +69,15 @@ textarea, input{
 
 .development-showing, .design-showing, .product-showing {
     display: none;
+}
+
+.Hover {
+    opacity: 0;
+    background-color: rgba(255, 255, 255. 0.623);
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    right: 25%;
+    left: 25%;
+    
 }
