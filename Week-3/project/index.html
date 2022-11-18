@@ -39,26 +39,54 @@
             </p>
     </div>
 
-    <div>
 
-        <h3 id="whatwedo">WHAT WE DO</h3>
-            <div>
-                <img src="design_icon.png" id="design-img"><br>
-                <label for="design" id="design">DESIGN</label>
+    <div class="whatwedo">
+        <br>
+        <h4 style="text-align: center;">WHAT WE DO</h4>
+
+        <div class="row">
+            <div class="col-md-4" id="design">
+                <div class="hide-image">
+                    <img src="design_icon.png" alt="design icon">
+                    <p>DESIGN</p>
+                    <p class="hide" id="design-showing">
+                        Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                        Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                </div>
+            </div>
+            <div class="col-md-4" id="development">
+                <div class="hide-development-image">
+                    <img src="dev_icon.png" alt="Development image">
+                    <p>DEVELOPMENT</p>
+                    <P>
+                    All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                    They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+                    </P>
+                </div>
+            </div>
+            <div class="col-md-4" id="product-management">
+                <div class="hide-product-image">
+                    <img src="product_icon.png" alt="Product image">
+                    <p>PRODUCT MANAGEMENT</p>
+                    <P class="hide">
+                    Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+                    This iterative process allows for changes as business requirements evolve
+                    </P>
+                </div>
             </div>
 
-            <div class="development" style="text-align:center ;">
-                <img src="dev_icon.png" id="dev-icon"><br>
-                <label for="img" id="development">DEVELOPMENT</label>
-            </div>
 
-            <div id="product" style="text-align: right;">
-                <img src="product_icon.png" id="product-icon"><br>
-                <label for="product">PRODUCT MANAGEMENT</label>
-            </div>
-    </div
+        </div>
+    </div>
 
-    <h3> id="portfolio" style="text-align: center;">PORTFOLIO</h3><br>
+
+                
+            
+        
+
+        
+
+    <h4> </h4> <br>
 
         <img src="work4.jpg">
         <img src="work3.jpg">
@@ -69,11 +97,11 @@
         <img src="work7.jpg">
         <img src="work8.jpg">
         
-    
-    <h3>CONTACT US</h3>
+        <br>
+    <section id="contact-us">
+            <h3 style="text-align: center;">CONTACT US</h3>
 
-             <!-- <img src="c_image.jpg" style="background image"> -->
-            <form action="Submit">
+                <form action="Submit" style="text-align: center;">
                 <label for="name" required>Name...</label>
                 <input type="text" >
 
@@ -83,7 +111,10 @@
                 <br><label for="message">Your message</label>
                 <input type="text">
 
+                <button id="buttonsubmit">SUBMIT</button>
+
             </form>
+    </section>
 
 
 
