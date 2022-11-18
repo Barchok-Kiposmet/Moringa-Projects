@@ -65,6 +65,10 @@ textarea, input{
 }
 
 #submit{
-    margin-left: 10%;
+    padding-left: 5%;
     margin: 5%;
+}
+
+.development-showing, .design-showing, .product-showing {
+    display: none;
 }
