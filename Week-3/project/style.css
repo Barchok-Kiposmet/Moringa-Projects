@@ -24,9 +24,20 @@ body{
     
 
 }
-#contact-us{
+.contactus{
     background-image: url(c_image.jpg);
-    opacity: 0.6;
+    background-size:cover;
+    display: cover;
+    padding: 10%;
    
 }
 
+#form-group{
+    background-color: rgba(0, 0, 0, 0);
+      
+}
+
+input [type=text]{
+    background: transparent;
+    opacity: 0.4;
+}
