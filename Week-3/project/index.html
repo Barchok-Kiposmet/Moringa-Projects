@@ -206,20 +206,20 @@
     <script>
         $(document).ready(()=>{
 
-            $('#submit').click(()=>{
+            $('#submit').click((event)=>{
 
             const nameValue = $('#name').val();
             const emailValue = $('#email').val();
             const textValue = $('#textarea').val();
 
-                if( nameValue == '' || emailValue == ' ' || textValue == ''){
+                if( nameValue == '' || emailValue == '' || textValue == ''){
                 alert('Please enter name and/or email and a short message');
             } else {
                 alert('Congratulations, we have received your details');
             }
             });
         
-
+            event.preventDefault();
         });
     </script>
 </body>
