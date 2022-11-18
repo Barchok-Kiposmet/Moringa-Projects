@@ -45,3 +45,11 @@ body{
 #socialtools{
     margin-left: 20%;
 }
+p{
+    text-align: center;
+}
+
+textarea, input{
+    background-color: transparent;
+    opacity: 0.4;
+}
