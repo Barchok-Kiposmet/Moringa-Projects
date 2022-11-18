@@ -37,7 +37,11 @@ body{
       
 }
 
-input [type=text]{
+.input [type=text]{
     background: transparent;
-    opacity: 0.4;
+    
+}
+
+#socialtools{
+    margin-left: 20%;
 }
