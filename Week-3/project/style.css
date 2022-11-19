@@ -33,24 +33,11 @@ body{
    
 }
 
-#form-group{
-    background-color: rgba(0, 0, 0, 0);
-      
-}
-
 #socialtools{
     margin-left: 20%;
 }
 p{
     text-align: center;
-}
-
-textarea, input{
-    background-color: transparent;
-    opacity: 0.3;
-    border-radius: 10px; 
-    border: solid;
-  
 }
 
 .whatwedo {
@@ -73,7 +60,7 @@ textarea, input{
 
 .Hover {
     opacity: 0;
-    background-color: rgba(255, 255, 255. 0.623);
+    background-color: rgba(255, 255, 255. 0);
     position: absolute;
     top: 25%;
     bottom: 25%;
@@ -81,3 +68,14 @@ textarea, input{
     left: 25%;
     
 }
+
+input[type=text]{
+
+    background: transparent;
+    color: white;
+}
+
+textarea[type=text] {
+    background:transparent;
+    color: white;
+  }
