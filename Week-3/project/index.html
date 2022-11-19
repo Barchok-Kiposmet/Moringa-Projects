@@ -53,33 +53,34 @@
 
         <div class="row">
             <div class="col-md-4" id="design">
-                <div class="hide-image">
+                <div class="hide-design-image">
                     <img src="design_icon.png" class="imageOne">
-                    <p class="design-showing">DESIGN</p>
-                    <p class="design-showing">
-                        Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-                        Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-                </div>
+                </div>   
+                <p>DESIGN</p>
+                <p class="hide" id="design-showing">
+                    Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                    Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+            
             </div>
             <div class="col-md-4" id="development">
                 <div class="hide-development-image">
                     <img src="dev_icon.png" class="imageTwo">
-                    <p class="development-showing">DEVELOPMENT</p>
-                    <P class="development-showing">
+                </div>
+                <p>DEVELOPMENT</p>
+                <P class="hide" id="development-showing">
                     All engineers are fluent in the latest enterprise, mobile and web development technologies.
                     They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
-                    </P>
-                </div>
+                </P>
             </div>
             <div class="col-md-4" id="product-management">
                 <div class="hide-product-image">
                     <img src="product_icon.png" class="imageThree">
-                    <p class="product-showing">PRODUCT MANAGEMENT</p>
-                    <P class="product-showing">
+                </div>
+                <p>PRODUCT MANAGEMENT</p>
+                <P class="hide" id="product-showing">
                     Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
                     This iterative process allows for changes as business requirements evolve
-                    </P>
-                </div>
+                </P>
             </div>
 
 
@@ -93,14 +94,14 @@
 
             <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work1">
                 <img src="work4.jpg" id="imageHover">
-                <div class="hover">
+                <div class="Hover">
                     <p id="hover_portfolio">Wine Kenya</p>
                 </div>
             </div>  
 
             <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work2">
                 <img src="work3.jpg" id="imageHover">
-                <div>
+                <div class="Hover">
                     <p id="hover_portfolio">PLEASE SHOW UP</p>
                 </div>
             </div> 
@@ -212,28 +213,38 @@
     <script>
         $(document).ready(()=>{
 
-            $('.imageOne').click(() =>{
-                $('.design-showing').toggle();
+            $('#design').click(() =>{
+                $('#design-showing').toggle();
+                $('.hide-design-image').toggle();
             });
-
-            $('.imageTwo').click(() =>{
-                $('.development-showing').toggle();
+             
+            $('#development').click(() =>{
+                $('#development-showing').toggle();
+                $('.hide-development-image').toggle();
             });
-            $('.imageThree').click(() =>{
+                   
+            $('#product-management').click(() =>{
                 $('.product-showing').toggle();
+                $('.hide-product-image').toggle();
             });
-            
 
+            
             
             //Insert white box up to hover
 
-            $("#hover").hover(function(){
-                $("#hover").animate({opacity:1});
+            $(".Hover").hover(function(){
+                $(".Hover").animate({opacity:'1'});                
             },
             function(){
-                $("#hover").animate({opacity:0});
-            })          
+                $(".Hover").animate({opacity:'0'});                
 
+            });
+
+            
+         
+
+
+            // submit function
 
             $('#submit').click(()=>{
 

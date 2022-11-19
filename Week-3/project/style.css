@@ -44,10 +44,6 @@ p{
     margin-left: 5%;
     margin-right: 5%;
 }
-/* .row{
-    margin-left: 5%;
-    margin-right: 5%;
-} */
 
 .custom-info-on-portfolio-images{
     height: 2%;
@@ -65,15 +61,15 @@ p{
     margin: 5%;
 }
 
-.development-showing, .design-showing, .product-showing {
+.hide{
     display: none;
 }
 
-.hover{
+.Hover{
     opacity: 0;
-    background-color: rgb(255, 255, 255, 0.623);
+    background-color: rgba(255, 255, 255, 0.623);
     position: absolute;
-    top: 50%;
+    top: 25%;
     bottom: 25%;
     right: 25%;
     left: 25%;
@@ -90,5 +86,13 @@ textarea[type=text] {
     background:transparent;
     color: white;
   }
-
- 
+/* .hover_portfolio{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.623);
+    position: relative;
+    top: 25%;
+    bottom: 25%;
+    right: 25%;
+    left: 25%;
+}
+  */
