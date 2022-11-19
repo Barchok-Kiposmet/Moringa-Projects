@@ -40,14 +40,25 @@ p{
     text-align: center;
 }
 
-.whatwedo {
+.whatwedo{
     margin-left: 5%;
     margin-right: 5%;
 }
-.row {
+/* .row{
     margin-left: 5%;
     margin-right: 5%;
-}
+} */
+
+.custom-info-on-portfolio-images{
+    height: 2%;
+    max-width: 100%;
+    padding:2px;
+  }
+  .row{
+    padding:2%;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
 
 #submit{
     padding-left: 5%;
@@ -58,11 +69,11 @@ p{
     display: none;
 }
 
-.Hover {
+.hover{
     opacity: 0;
-    background-color: rgba(0, 0, 0. 0);
+    background-color: rgb(255, 255, 255, 0.623);
     position: absolute;
-    top: 25%;
+    top: 50%;
     bottom: 25%;
     right: 25%;
     left: 25%;
@@ -80,3 +91,4 @@ textarea[type=text] {
     color: white;
   }
 
+ 
