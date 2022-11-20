@@ -21,6 +21,7 @@ body{
     text-align: center;
     color: white;
     font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 
@@ -31,6 +32,7 @@ body{
     padding: 10%;
 }
 
+
 #socialtools{
     margin-left: 20%;
 }
@@ -39,36 +41,38 @@ p{
     text-align: center;
 }
 
-.whatwedo{
-    margin-left: 5%;
-    margin-right: 5%;
+
+h5{
+    text-align: center;
 }
 
-.custom-info-on-portfolio-images{
+#image{
+    display: flex;
+    justify-content:center ;
+}
+
+.Hover{
+    opacity:0;
+    background-color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top:25%;
+    bottom:25%;
+    left:25%;
+    right:25%; 
+    
+}
+
+#custom-info-on-portfolio-images{
     height: 280px;
     max-width: 280px;
     padding:1em;
   }
 
-.Hover{
-    opacity: 0;
-    background-color:white
-    position: absolute;
-    top: 80%;
-    bottom: 180%;
-    right: 25%;
-    left: 25%;
+.row{
+    padding: 2%;
     
 }
 
-.row{
-    padding-left: 5%;
-    margin-left: auto%;
-    margin-right: auto%;
-    margin-top: 1%;
-    margin-bottom: 1%;
- 
-  }
 
 #submit{
     padding-left: 5%;
@@ -85,7 +89,9 @@ input[type=text]{
     color: white;
 }
 
-textarea[type=text] {
+textarea[type=text]{
     background:transparent;
     color: white;
+    
 }
+

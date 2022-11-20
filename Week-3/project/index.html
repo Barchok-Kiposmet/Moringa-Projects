@@ -53,30 +53,30 @@
 
         <div class="row">
             <div class="col-md-4" id="design">
-                <div class="hide-design-image">
+                <div class="hide-design-image" id="image">
                     <img src="design_icon.png" class="imageOne">
                 </div>   
-                <p>DESIGN</p>
+                <h5>DESIGN</h5>
                 <p class="hide" id="design-showing">
                     Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
                     Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
             
             </div>
             <div class="col-md-4" id="development">
-                <div class="hide-development-image">
+                <div class="hide-development-image" id="image">
                     <img src="dev_icon.png" class="imageTwo">
                 </div>
-                <p>DEVELOPMENT</p>
+                <h5>DEVELOPMENT</h5>
                 <P class="hide" id="development-showing">
                     All engineers are fluent in the latest enterprise, mobile and web development technologies.
                     They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
                 </P>
             </div>
             <div class="col-md-4" id="product-management">
-                <div class="hide-product-image">
+                <div class="hide-product-image" id="image">
                     <img src="product_icon.png" class="imageThree">
                 </div>
-                <p>PRODUCT MANAGEMENT</p>
+                <h5>PRODUCT MANAGEMENT</h5>
                 <P class="hide" id="product-showing">
                     Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
                     This iterative process allows for changes as business requirements evolve
@@ -92,45 +92,63 @@
         <h4 style="text-align: center ;">PORTFOLIO</h4> <br>
         <div class="row">
 
-            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work1">
-                <img src="work4.jpg" id="imageHover">
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work4.jpg" id="work4">
                 <div class="Hover">
-                    <p id="hover_portfolio">Wine Kenya</p>
+                    <p id="hover_portfolio">HOVER TEST AREA</p>
                 </div>
             </div>  
 
-            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work2">
-                <img src="work3.jpg" id="imageHover">
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work3.jpg" id="work3">
                 <div class="Hover">
-                    <p id="hover_portfolio">PLEASE SHOW UP</p>
+                    <p id="hover_portfolio">HOVER TEST AREA</p>
                 </div>
             </div> 
 
-            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work3">
-                <img src="work2.jpg">
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work2.jpg" id="work2">
+                <div class="Hover">
+                    <p id="hover_portfolio">HOVER TEST AREA</p>
+                </div>
             </div> 
 
-            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work4">
-                <img src="work1.jpg">
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work1.jpg" id="work1">
+                <div class="Hover">
+                    <p id="hover_portfolio">HOVER TEST AREA</p>
+                </div>
             </div> 
 
         </div>
         <br>
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work5">
-                <img src="work5.jpg">
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work5.jpg" id="work5">
+                <div class="Hover">
+                    <p id="hover_portfolio">HOVER TEST AREA</p>
+                </div>
             </div>  
 
-            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work6">
-                <img src="work6.jpg">
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work6.jpg" id="work6">
+                <div class="Hover">
+                    <p id="hover_portfolio">HOVER TEST AREA</p>
+                </div>
             </div> 
 
-            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work7">
-                <img src="work7.jpg">
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work7.jpg" id="work7">
+                <div class="Hover">
+                    <p id="hover_portfolio">HOVER TEST AREA</p>
+                </div>
             </div> 
 
-            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work8">
-                <img src="work8.jpg">
+            <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images">
+                <img src="work8.jpg" id="work8">
+                <div class="Hover">
+                    <p id="hover_portfolio">HOVER TEST AREA</p>
+                </div>
             </div> 
 
         </div>
@@ -213,6 +231,8 @@
     <script>
         $(document).ready(()=>{
 
+            // What we do function
+
             $('#design').click(() =>{
                 $('#design-showing').toggle();
                 $('.hide-design-image').toggle();
@@ -232,15 +252,11 @@
             
             //Insert white box up to hover
 
-            // $(".Hover").hover(function(){
-            //     $(".Hover").animate({opacity:'1'});                
-            // },
-            // function(){
-            //     $(".Hover").animate({opacity:'0'});                
-
+            // $("#Hover").click(function(){
+            //     alert('fiine');
             // });
-
             
+
             // submit function
 
             $('#submit').click(()=>{
