@@ -96,7 +96,7 @@ textarea[type=text]{
     
 }
 
-.Hover{
+.Hover,.Hover1, .Hover2, .Hover3, .Hover4, .Hover5, .Hover6, .Hover7{
     height: 310px;
     width: 365px;
     position: absolute;
