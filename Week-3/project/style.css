@@ -95,3 +95,6 @@ textarea[type=text]{
     
 }
 
+* {
+    margin: auto;
+}
