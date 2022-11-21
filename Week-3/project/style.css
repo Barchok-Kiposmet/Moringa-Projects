@@ -51,16 +51,16 @@ h5{
     justify-content:center ;
 }
 
-/* .Hover{
-    opacity:0;
-    background-color: rgba(255, 255, 255, 0.623);
+.Hover,.Hover1, .Hover2, .Hover3, .Hover4, .Hover5, .Hover6, .Hover7{
+    height: 310px;
+    width: 366px;
     position: absolute;
-    top:25%;
-    bottom:25%;
-    left:25%;
-    right:25%; 
-    
-} */
+    background-color: white;
+    opacity: 0;
+    margin-bottom: ;
+    margin-top: -8cm;
+   
+}
 
 #custom-info-on-portfolio-images{
     height: 280px;
@@ -73,7 +73,6 @@ h5{
   
     
 }
-
 
 #submit{
     padding-left: 5%;
@@ -96,13 +95,3 @@ textarea[type=text]{
     
 }
 
-.Hover,.Hover1, .Hover2, .Hover3, .Hover4, .Hover5, .Hover6, .Hover7{
-    height: 310px;
-    width: 365px;
-    position: absolute;
-    background-color: white;
-    opacity: 0;
-    margin-bottom: ;
-    margin-top: -8cm;
-   
-}
