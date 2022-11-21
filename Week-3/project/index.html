@@ -231,8 +231,7 @@
     <script>
         $(document).ready(()=>{
 
-            // What we do function
-
+            
             $('#design').click(() =>{
                 $('#design-showing').toggle();
                 $('.hide-design-image').toggle();
@@ -249,15 +248,19 @@
             });
 
             
-            
-            //Insert white box up to hover
+                       
 
-            // $("#Hover").click(function(){
-            //     alert('fiine');
-            // });
+            $(".Hover").hover(()=> {
+                $('.Hover').css('opacity', '1' );
+
+            }, () =>{
+
+                $('.Hover').css('opacity', '0');
+
+            });
             
 
-            // submit function
+           
 
             $('#submit').click(()=>{
 
