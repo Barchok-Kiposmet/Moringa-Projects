@@ -20,14 +20,15 @@ $(document).ready(()=>{
     
      //hover for each portfolio item.          
 
-    $(".Hover").hover(()=> {
+    $(".Hover").hover( () =>{
         $('.Hover').css('opacity', '1' );
 
-    }, () =>{
+    }, () => {
 
         $('.Hover').css('opacity', '0');
 
     });
+
 
     $(".Hover1").hover(()=> {
         $('.Hover1').css('opacity', '1' );
