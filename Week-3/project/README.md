@@ -1,11 +1,11 @@
 ## DELANI STUDIO
 
 ### Project Description
-#### This proejct sought to replicate the webpage by the studio. In this project, I mock recreate the same website.
+#### This proejct sought to replicate the webpage by the studio. In this project, I recreate the same website.
 
 ### Project Author
 
-#### project done by Patrick Barchok K, This project was done by Patrick Barchok, a student at Moringa school Learning DevOps and SRE.
+#### Project done by Patrick Barchok K, This project was done by Patrick Barchok, a student at Moringa school Learning DevOps and SRE.
 
 ### Setup Instructions.
 #### Considering this is a mock of the website, you don't have to do much. You can click the link: https://barchok-kiposmet.github.io/Moringa-Projects/Week-3/project/index.html to access the site. For access to code, it is available in the repo. You can go ahead and clone it.
