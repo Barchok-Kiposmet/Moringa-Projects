@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    margin: auto;
 }
 
 #logo{
@@ -69,9 +70,8 @@ h5{
   }
 
 .row{
-   
-    /* margin: auto; */
-    padding: 2%;
+   /* margin: auto; */
+    /* padding: 2%; */
   
 }
 
