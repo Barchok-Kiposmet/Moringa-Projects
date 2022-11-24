@@ -70,9 +70,8 @@ h5{
   }
 
 .row{
-   /* margin: auto; */
-    /* padding: 2%; */
-  
+   
+    margin-left: 1px;
 }
 
 #submit{
