@@ -62,6 +62,8 @@ for (key of person){
 
     // This is how to invoke a function that is not assigned anywhere else
 
-        jQuery (h1).click ((){
-            alert('THis is the header') // this is the function called assynchronically
-        })
+       $(document).ready(() =>{
+        $('.h1').hover(()=>{
+            alert('this is it');
+        });
+       });
