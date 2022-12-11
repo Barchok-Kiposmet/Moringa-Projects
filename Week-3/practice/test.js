@@ -1,7 +1,7 @@
-console.log('what is here');
+let myName = function addNumbers(a,b){
+    return a + b;
+}
 
-let james = 'Here';
+sum = myName(6, 6);
 
-console.log(james);
-
-console.log('What a day');
+console.log(sum);
