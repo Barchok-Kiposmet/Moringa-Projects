@@ -1,97 +1,94 @@
-body{
-    background-color: white;
-    margin: auto;
+body {
+  background-color: white;
+  margin: auto;
 }
 
-#logo{
-    background-image: url("h_img.jpg");
-    background-size: cover;
-    text-align: center;
-    color: white;
-         
+#logo {
+  background-image: url("h_img.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
 }
 
-#about-us{
-    margin-top: 10px;
-    text-align: center;
+#about-us {
+  margin-top: 10px;
+  text-align: center;
 }
 
-#services-banner{
-    background-image: url(s_image.jpg);
-    background-size: cover;
-    text-align: center;
-    color: white;
-    font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+#services-banner {
+  background-image: url(s_image.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.contactus{
-    background-image: url(c_image.jpg);
-    background-size:cover;
-    display: cover;
-    padding: 10%;
+.contactus {
+  background-image: url(c_image.jpg);
+  background-size: cover;
+  display: cover;
+  padding: 10%;
 }
 
-
-#socialtools{
-    margin-left: 20%;
+#socialtools {
+  margin-left: 20%;
 }
 
-p{
-    text-align: center;
+p {
+  text-align: center;
 }
 
-
-h5{
-    text-align: center;
+h5 {
+  text-align: center;
 }
 
-#image{
-    display: flex;
-    justify-content:center ;
+#image {
+  display: flex;
+  justify-content: center;
 }
 
-.Hover,.Hover1, .Hover2, .Hover3, .Hover4, .Hover5, .Hover6, .Hover7{
-    height: 310px;
-    width: 366px;
-    position: absolute;
-    background-color: white;
-    opacity: 0;
-    margin-top: -8cm;
-   
+.Hover,
+.Hover1,
+.Hover2,
+.Hover3,
+.Hover4,
+.Hover5,
+.Hover6,
+.Hover7 {
+  height: 310px;
+  width: 366px;
+  position: absolute;
+  background-color: white;
+  opacity: 0;
+  margin-top: -8cm;
 }
 
-
-#custom-info-on-portfolio-images{
-    height: 280px;
-    max-width: 280px;
-    padding:1em;
-  }
-
-.row{
-   
-    margin-left: 1px;
+#custom-info-on-portfolio-images {
+  height: 280px;
+  max-width: 280px;
+  padding: 1em;
 }
 
-#submit{
-    padding-left: 5%;
-    margin: 5%;
+.row {
+  margin-left: 1px;
 }
 
-.hide{
-    display: none;
+#submit {
+  padding-left: 5%;
+  margin: 5%;
 }
 
-input[type=text]{
-
-    background: transparent;
-    color: white;
+.hide {
+  display: none;
 }
 
-textarea[type=text]{
-    background:transparent;
-    color: white;
-    
+input[type="text"] {
+  background: transparent;
+  color: white;
 }
 
+textarea[type="text"] {
+  background: transparent;
+  color: white;
+}
