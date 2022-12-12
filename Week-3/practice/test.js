@@ -1,7 +1,7 @@
-let myName = function addNumbers(a,b){
+let myNumber = function addNumbers(a,b){
     return a + b;
 }
 
-sum = myName(6, 6);
+sum = myNumber(6, 6);
 
 console.log(sum);
