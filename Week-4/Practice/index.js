@@ -1,13 +1,12 @@
 
-
 // Import
 const http = require('http');
 
 // Create Server
-const server = http.createServer(function(req, res) {
-    const method = req.method;
-    const path = req.url;
-    const headers = req.headers;
+const server = http.createServer(function(request, response) {
+    const method = request.method;
+    const path = request.url;
+    const headers = request.headers;
 
     const data = {
         method, path, headers,
@@ -15,7 +14,7 @@ const server = http.createServer(function(req, res) {
 
     console.log(data)
 
-    res.end();
+    response.end('<p>Success</p>');
 });
 
 server.listen(3000, function () {
