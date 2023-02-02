@@ -8,7 +8,9 @@ router.post('/', async function (req, res) {
     const data = new blogModel({
         title: req.body.title,
         description: req.body.description,
+    
     });
+    console.log(data)
 
     try {
         const dataToSave = await data.save();

@@ -24,6 +24,8 @@ database.on('connected', () => {
 
 // Create an express app
 const app = express();
+app.use(express.json());
+
 app.use('/blog', blogRoutes);
 
 
