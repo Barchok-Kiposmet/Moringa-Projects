@@ -2,6 +2,4 @@ Hooks added
 
 Automated deployments
 
-Test 3
-
-test 4
+Test 3 and 4 deleted
