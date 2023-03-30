@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  backend: 
+    container_name: backend_container
+    ports:
+      - 3000:3000
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    environment:
+       port: 3000
+    networks:
+      backend-net:
+        ipv4_address: 172.100.0.101
+        
+
+networks:
+  backend-net:
+    ipam:
+      driver: default
+      config: 
+        - subnet: 172.100.0/16
