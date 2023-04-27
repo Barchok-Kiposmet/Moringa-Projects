@@ -9,12 +9,12 @@ describe('Base Endpoints', () => {
         expect(response.statusCode).toEqual(200);
         expect(response.body).toEqual({ running: true });
     });
-    // it('Can do a basic GET request on /users', async () => {
-    //     const response = await request(server)
-    //         .get('/user')
-    //     expect(response.statusCode).toEqual(200);
-    //     expect(response.body).toEqual({ users: [] });
-    // });
+    it('Can do a basic GET request on /users', async () => {
+        const response = await request(server)
+            .get('/user')
+        expect(response.statusCode).toEqual(200);
+        expect(response.body).toEqual({ users: [] });
+    });
 });
 afterAll(() => {
     server.close();
