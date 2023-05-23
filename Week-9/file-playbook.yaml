@@ -1,0 +1,9 @@
+- name: ping playbook
+  hosts: all
+  tasks: 
+    - name: ping my clients
+      ping:
+    - name: Generate new files
+      shell: 'touch ansible.txt'
+
+
