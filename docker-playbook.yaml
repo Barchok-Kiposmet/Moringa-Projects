@@ -1,8 +1,8 @@
 - name: Install Docker
   hosts: all
   vars:
-    client_image: hawksdev/g2-yolo-client:1.0.0
-    backend_image: hawksdev/g2-yolo-backend:1.0.0
+    client_image: pkiposmet/yolo-client-server:1.1.0
+    backend_image: pkiposmet/yolo-backend-server:1.0.0
     app_folder: /opt/yolo
   tasks:
     - name: Update the cache
