@@ -28,5 +28,5 @@ variable "project_id" {
 
 variable "organization_developers" {
   type    = list(string)
-  default = [""]
+  default = ["", ""]
 }
