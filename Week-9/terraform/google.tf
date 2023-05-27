@@ -1,13 +1,13 @@
 provider "google" {
   project = var.project_id
-  region  = "europe-west1"
-  zone    = "europe-west1-b"
+  region  = "us-central1"
+  zone    = "us-central1-a"
 }
 
 resource "google_compute_instance" "default" {
-  name         = "ansible-server"
+  count        = length(var.instances)
+  name         = var.instances[count.index]
   machine_type = "e2-medium"
-
 
   boot_disk {
     initialize_params {
@@ -18,7 +18,6 @@ resource "google_compute_instance" "default" {
     }
   }
 
-
   network_interface {
     network = "default"
 
@@ -27,4 +26,5 @@ resource "google_compute_instance" "default" {
     }
   }
 
+  metadata_startup_script = "sudo apt-add-repository ppa:ansible/ansible; sudo apt update; sudo apt install ansible"
 }
