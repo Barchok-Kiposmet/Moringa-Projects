@@ -14,8 +14,9 @@ provider "google" {
 }
 
 resource "google_compute_instance" "vm_instance" {
-  name         = "yolo-server"
-  machine_type = "e2-micro"
+  count        = length(var.instances)
+  name         = var.instances[count.index]
+  machine_type = "e2-medium"
 
   boot_disk {
     initialize_params {
