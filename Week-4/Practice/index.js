@@ -1,6 +1,7 @@
 
 // Import
 const http = require('http');
+let fs = require('fs');
 
 // Create Server
 const server = http.createServer(function(request, response) {

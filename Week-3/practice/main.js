@@ -33,6 +33,9 @@ $(document).ready(() => {
         alert ('DO NOT DO THAT!!');
     });
 
+    $('#btn-six').click(() =>(
+        alert ("This is very funny considering what you are trying to do");
+    ));
     
 });
 
